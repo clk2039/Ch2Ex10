@@ -1,6 +1,6 @@
 /*
 File Name: Ch2Ex10.cpp
-Github URL:
+Github URL: https://github.com/clk2039/Ch2Ex10.git
 Programmer: Kit Miller
 Date: September 2025
 Requirements: Write a program that calculates how many miles to the gallon a car gets if the car 
