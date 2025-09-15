@@ -14,8 +14,8 @@ using namespace std;
 
 int main()
 {
-	int gasTank; // gallons of gas the tank can hold
-	int milesToEmpty; // miles the car can travel before refueling
+	double gasTank; // gallons of gas the tank can hold
+	double milesToEmpty; // miles the car can travel before refueling
 	double milesPerGallon; 
 	
 	cout << "Enter the number of gallons your gas tank can hold: ";
@@ -26,7 +26,7 @@ int main()
 	milesPerGallon = milesToEmpty / gasTank;
 
 	cout << "If your car can travel " << milesToEmpty << " miles on " << gasTank 
-		 << " gallons of gas, it gets about " << milesPerGallon << " miles per gallon." << endl;
+		 << " gallons of gas, it gets " << milesPerGallon << " miles per gallon." << endl;
 
 	return 0;
 }
